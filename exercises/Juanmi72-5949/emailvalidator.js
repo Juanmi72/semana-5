@@ -11,7 +11,7 @@ const emailPattern =/^[\w._0-9]+(\+[\w.-_]+)?@[\w._]+\.[\w]{2,8}$/;
 
 const result = emailList.map( function(email) {
     if (emailPattern.test(email)){
-        console.log('Correo válido');
+        console.log('Correo SI válido');
     } else {
         console.log('Correo NO válido');
     }
